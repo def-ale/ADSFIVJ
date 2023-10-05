@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ContaComercial
+comment1.params=
+comment1.target=ContaComercial()
+comment2.params=numero\ titular\ saldo\ limiteEmprestimo
+comment2.target=ContaComercial(java.lang.Integer,\ java.lang.String,\ java.lang.Double,\ java.lang.Double)
+comment3.params=valor
+comment3.target=void\ Emprestimo(java.lang.Double)
+comment4.params=
+comment4.target=java.lang.Double\ getLimiteEmprestimo()
+comment5.params=limiteEmprestimo
+comment5.target=void\ setLimiteEmprestimo(java.lang.Double)
+numComments=6

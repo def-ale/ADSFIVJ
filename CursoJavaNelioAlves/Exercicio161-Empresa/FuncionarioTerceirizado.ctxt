@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=FuncionarioTerceirizado
+comment1.params=
+comment1.target=FuncionarioTerceirizado()
+comment2.params=nome\ horas\ valorHora\ despesaAdicional
+comment2.target=FuncionarioTerceirizado(java.lang.String,\ java.lang.Integer,\ java.lang.Double,\ java.lang.Double)
+comment3.params=
+comment3.target=double\ pagamento()
+comment4.params=
+comment4.target=double\ getDespesaAdicional()
+comment5.params=despesaAdicional
+comment5.target=void\ setDespesaAdicional(java.lang.Double)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7
