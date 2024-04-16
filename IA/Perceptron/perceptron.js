@@ -14,8 +14,7 @@ class Perceptron{
         }
     }
 
-    train(input, target, convergenceThreshold) {
-        let totalError = convergenceThreshold + 1;
+    train(input, target) {
         const guess = this.guess(input);
         const error = target - guess;
         for(let i = 0;  i < this.weights.length; i++){
