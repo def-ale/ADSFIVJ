@@ -19,14 +19,11 @@ function draw(){
     
     noStroke();
 
-    totalError = 0;
 
     points.forEach( pt =>{
         const inputs = [pt.x, pt.y, pt.bias];
         const target = pt.label;
         const guess = perceptron.guess(inputs);
-        const error = target - guess;
-        totalError += Math.abs(error);
 
         if (guess == target){
             fill(0, 255, 0);
@@ -54,7 +51,6 @@ function draw(){
         noLoop();
         console.log("Convergiu");
     }
-
 }
 
 function drawLine(){
